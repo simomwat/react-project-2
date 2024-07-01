@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  color: blue;
+
+  margin-top: 35px;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.header {
+  height: 100px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.load {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid blue;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  display: none;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
